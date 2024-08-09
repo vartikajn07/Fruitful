@@ -23,14 +23,14 @@ const Navbar = () => {
     }
   };
   return (
-    <div className="fixed w-full h-[7vw] z-[2] bg-transparent lg:px-24  md:py-14 md:px-12 sm:py-14 sm:px-10 px-6 py-16  text-black flex items-center justify-between text-[20px] font-medium">
+    <div className="fixed w-full h-[7vw] z-[2] bg-transparent lg:px-24  md:py-14 md:px-12 sm:py-14 sm:px-10 px-7 py-16  text-black flex items-center justify-between text-[18px] font-medium">
       <Link
         to="video"
         spy={true}
         smooth={true}
         offset={50}
         duration={500}
-        className="text-[25px] cursor-pointer z-[50]"
+        className="text-[22px] cursor-pointer z-[50]"
       >
         fruitful
       </Link>

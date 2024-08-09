@@ -3,15 +3,15 @@ import React from "react";
 const Footer = () => {
   return (
     <footer data-scroll data-scroll-speed="-0.07" class=" bg-gray-50">
-      <div className="container px-6 md:px-[12rem] py-12 mx-auto">
+      <div className="container px-6 md:px-[14rem] py-12 mx-auto">
         <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 sm:gap-y-10 md:grid-cols-6">
           <div className="md:col-span-2 sm:col-span-2">
-            <h1 className=" sm:text-[40px] text-2xl text-dark-green cursor-pointer ">
+            <h1 className=" sm:text-[30px] text-2xl text-dark-green cursor-pointer ">
               Fruitful
             </h1>
           </div>
           <div>
-            <p className="font-semibold text-[18px] text-black cursor-pointer">
+            <p className="font-semibold text-[16px] text-black cursor-pointer">
               Explore Fruitful
             </p>
             <div className="flex flex-col items-start mt-5 space-y-2">
@@ -22,7 +22,7 @@ const Footer = () => {
           </div>
 
           <div>
-            <p className="font-semibold text-[18px] text-black cursor-pointer">
+            <p className="font-semibold text-[16px] text-black cursor-pointer">
               Careers
             </p>
 
@@ -31,7 +31,7 @@ const Footer = () => {
             </div>
           </div>
           <div>
-            <p className="font-semibold text-[18px] text-black cursor-pointer">
+            <p className="font-semibold text-[16px] text-black cursor-pointer">
               Social
             </p>
             <div className="flex flex-col items-start mt-5 space-y-2">
@@ -41,7 +41,7 @@ const Footer = () => {
             </div>
           </div>
           <div>
-            <p className="font-semibold text-[18px] text-black cursor-pointer">
+            <p className="font-semibold text-[16px] text-black cursor-pointer">
               Support
             </p>
             <div className="flex flex-col items-start mt-5 space-y-2">

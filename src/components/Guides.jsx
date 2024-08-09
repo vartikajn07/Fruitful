@@ -16,7 +16,7 @@ const Guides = () => {
           alt=""
         ></img>
 
-        <h1 className="lg:absolute lg:top-[25rem]  lg:text-white lg:left-6 sm:text-[30px] lg:text-[35px] text-[20px] sm:font-medium lg:font-semibold">
+        <h1 className="lg:absolute lg:top-[22rem]  lg:text-white lg:left-6 sm:text-[25px] lg:text-[35px] text-[20px] sm:font-medium lg:font-semibold">
           Your partner in progress
         </h1>
       </div>
@@ -27,7 +27,7 @@ const Guides = () => {
           src={Guidesphoto2}
           alt=""
         />
-        <h1 className="lg:absolute lg:top-[25rem] lg:text-white lg:left-6 sm:text-[30px]  lg:text-[35px] text-[20px] sm:font-medium lg:font-semibold">
+        <h1 className="lg:absolute lg:top-[22rem] lg:text-white lg:left-6 sm:text-[30px]  lg:text-[35px] text-[20px] sm:font-medium lg:font-semibold">
           Your place for piece of mind
         </h1>
       </div>

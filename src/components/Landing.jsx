@@ -51,19 +51,19 @@ const Landing = () => {
           src={videoHero}
         />
       </div>
-      <div className="absolute lg:top-[30%] md:top-[63%] top-[65%] px-5  w-full lg:px-28 md:px-12 text-white ">
-        <h1 className="lg:text-[110px] md:text-[50px] text-[45px] leading-[2.8rem] md:leading-[4.5rem] lg:w-[35%] lg:leading-[5.5rem] ">
+      <div className="absolute lg:top-[30%] md:top-[63%] top-[63%] sm:px-8 px-5 w-full lg:px-28 md:px-12 text-white ">
+        <h1 className="lg:text-[98px] md:text-[50px] text-[42px] leading-[2.5rem] md:leading-[4.5rem] lg:w-[35%] lg:leading-[5.1rem]  ">
           Finances made easy for you
         </h1>
 
-        <h1 className="lg:mt-5 md:mt-2 mt-3 lg:text-[24.5px]  md:text-[25px] w-fit">
+        <h1 className="lg:mt-5 md:mt-2 mt-3 lg:text-[21px] md:text-[25px] sm:text-[18px] text-[16px] w-[15rem] leading-5 sm:leading-normal sm:w-fit">
           Track, save and invest your money all in one place.
         </h1>
 
         <button
           on
           onClick={handleGoToLogin}
-          className="get-started relative sm:px-20 px-28 py-3 sm:py-4 mt-6 text-black text-[20px] font-semibold bg-white login rounded-3xl"
+          className="get-started relative sm:px-20 px-[7.6rem] py-3 sm:py-4 mt-5  text-black text-[18px] font-semibold bg-white login rounded-2xl"
         >
           Get Started
         </button>

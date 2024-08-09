@@ -59,11 +59,11 @@ const FAQs = () => {
   return (
     <div
       ref={ref}
-      className="faq w-full min-h-[150vh]  sm:min-h-[130vh] pt-36 sm:py-24"
+      className="faq w-full min-h-[150vh]  sm:min-h-[130vh] pt-30 sm:py-20"
     >
       <div className="flex flex-col items-center justify-center sm:gap-14">
-        <h1 className="md:text-[60px] sm:text-[40px] text-[30px] leading-9 md:leading-normal md:w-fit text-center w-[18rem]">
-          Frequently asked questions
+        <h1 className="md:text-[48px] md:tracking-wide font-semibold sm:text-[35px] text-[30px] leading-9 md:leading-normal md:w-fit text-center w-[18rem]">
+          Frequently asked Questions
         </h1>
         <div className="flex flex-col items-center gap-5 py-5 md:gap-4 ">
           {data.map((item, i) => (
@@ -73,7 +73,7 @@ const FAQs = () => {
               className="accordian accordian-btn md:w-[70rem] sm:w-[40rem] w-[20rem] md:px-12 sm:px-7 px-5 md:py-5 py-5 bg-blueish rounded-xl flex flex-col justify-center cursor-pointer"
             >
               <div className="flex items-center justify-between">
-                <h1 className="md:text-[25px] text-[20px]">{item.question}</h1>
+                <h1 className="md:text-[22px] text-[20px]">{item.question}</h1>
                 <span>
                   {" "}
                   {selected.includes(i) ? (

@@ -47,10 +47,10 @@ const Benefits = () => {
         ref={benefitsRef}
         className="flex flex-col items-center justify-center gap-2 benefits-header"
       >
-        <h1 className="md:text-[50px] text-[30px] sm:text-[40px] w-[10rem] text-center leading-9 sm:leading-normal sm:w-fit font-semibold">
+        <h1 className="md:text-[45px] text-[30px] sm:text-[35px] w-[10rem] text-center leading-9 sm:leading-normal sm:w-fit font-semibold">
           Membership Benefits
         </h1>
-        <h1 className="sm:w-[26rem] w-[18rem] text-[18px] leading-[1.3rem] text-center sm:text-[20px] sm:leading-6 md:leading-7">
+        <h1 className="sm:w-[23rem] w-[18rem] text-[18px] leading-[1.3rem] text-center sm:text-[18px] sm:leading-6 md:leading-7">
           Get expert advice and access to smarter, simpler ways to save and
           invest all in one place.
         </h1>
