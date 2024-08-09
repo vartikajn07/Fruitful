@@ -2,10 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-@font-face {
-  font-family: "NeueMontreal";
-  src: url(./assets/NeueMontreal-Regular.ttf) format("truetype");
-}
 html.lenis {
   height: auto;
 }
