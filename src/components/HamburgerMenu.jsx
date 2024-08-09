@@ -1,10 +1,15 @@
 import React, { useEffect, useRef, useState } from "react";
+import { useNavigate } from "react-router-dom";
 import { Link } from "react-scroll";
 import gsap from "gsap";
 
 const Hamburger = ({ toggleMenu }) => {
   const menuRef = useRef();
+  const navigate = useNavigate();
 
+  const handleGologin = () => {
+    navigate("/login");
+  };
   useEffect(() => {
     const el = menuRef.current;
     gsap.fromTo(
@@ -57,10 +62,16 @@ const Hamburger = ({ toggleMenu }) => {
           </Link>
         </div>
         <div className="flex flex-col gap-3">
-          <button className="menu-btn relative w-full px-3 sm:py-4 py-3 text-[23px] text-white bg-black rounded-2xl">
+          <button
+            onClick={handleGologin}
+            className="menu-btn relative w-full px-3 sm:py-4 py-3 text-[23px] text-white bg-black rounded-2xl"
+          >
             Log in
           </button>
-          <button className="menu-secondbtn relative w-full px-3 sm:py-4 py-3 text-[23px] text-black bg-white border border-black rounded-2xl">
+          <button
+            onClick={handleGologin}
+            className="menu-secondbtn relative w-full px-3 sm:py-4 py-3 text-[23px] text-black bg-white border border-black rounded-2xl"
+          >
             Sign up
           </button>
         </div>

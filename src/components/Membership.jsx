@@ -24,7 +24,7 @@ const Membership = () => {
 
         scrollTrigger: {
           trigger: ".membership",
-          markers: true,
+          markers: false,
           start: "top bottom",
           end: "top center",
           scrub: true,
@@ -64,7 +64,7 @@ const Membership = () => {
 
         scrollTrigger: {
           trigger: ".membership",
-          markers: true,
+          markers: false,
           start: "top bottom",
           end: "top center",
           scrub: true,

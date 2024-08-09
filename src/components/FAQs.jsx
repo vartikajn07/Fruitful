@@ -43,7 +43,7 @@ const FAQs = () => {
         scrollTrigger: {
           trigger: ".faq",
           scrub: true,
-          markers: true,
+          markers: false,
           start: "top bottom",
           end: "center bottom",
           toggleActions: "play none none reverse",

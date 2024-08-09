@@ -34,7 +34,7 @@ const Landing = () => {
         scrollTrigger: {
           trigger: ".video",
           scrub: true,
-          markers: true,
+          markers: false,
           start: "top center",
         },
       }

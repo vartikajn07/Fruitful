@@ -24,7 +24,7 @@ const Benefits = () => {
 
         scrollTrigger: {
           trigger: ".benefits-header",
-          markers: true,
+          markers: false,
           start: "top bottom",
           end: "center top",
           scrub: true,
