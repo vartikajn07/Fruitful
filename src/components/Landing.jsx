@@ -63,7 +63,7 @@ const Landing = () => {
         <button
           on
           onClick={handleGoToLogin}
-          className="get-started relative sm:px-20 px-[7.6rem] py-3 sm:py-4 mt-5  text-black text-[18px] font-semibold bg-white login rounded-2xl"
+          className="get-started relative sm:px-20 px-[7.5rem] py-3 sm:py-4 mt-5  text-black text-[18px] font-semibold bg-white login rounded-2xl"
         >
           Get Started
         </button>

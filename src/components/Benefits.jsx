@@ -41,7 +41,7 @@ const Benefits = () => {
       data-scroll
       data-scroll-speed="0.3"
       id="benefits"
-      className="flex flex-col justify-center gap-10 sm:gap-20 md:gap-20 md:px-36 sm:px-14 px-[0.5] py-5 min-h-[100vh] sm:py-2 md:py-14 md:min-h-[130vh] sm:min-h-[150vh] bg-sky-100"
+      className="flex flex-col justify-center gap-10 sm:gap-20 md:gap-20 md:px-36 sm:px-14 px-[0.5] py-8 min-h-[90vh] sm:py-2 md:py-14 md:min-h-[130vh] sm:min-h-[150vh] bg-sky-100"
     >
       <div
         ref={benefitsRef}

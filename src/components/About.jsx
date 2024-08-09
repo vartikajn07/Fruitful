@@ -38,7 +38,7 @@ const About = () => {
   return (
     <div
       ref={animref}
-      className="flex flex-col items-center justify-center w-full min-h-[90vh] gap-28 mt-7 about md:pt-10 md:gap-36 "
+      className="flex flex-col items-center justify-center w-full min-h-[80vh] gap-28 mt-7 about md:pt-10 md:gap-36 "
     >
       <div>
         <h1 className="lg:text-[50px] text-[30px] sm:text-[4.5vw] sm:leading-[3rem] leading-[2.2rem] text-center lg:leading-[3.8rem] font-medium sm:w-[65vw] sm:px-auto px-5">

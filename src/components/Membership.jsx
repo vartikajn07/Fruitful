@@ -113,7 +113,7 @@ const Membership = () => {
   return (
     <div
       id="membership"
-      className="membership flex flex-col items-center justify-center w-full lg:pb-10 pb-44 md:gap-5 sm:gap-10 gap-14 lg:gap-10 lg:h-[140vh] sm:h-[240vh] h-[220vh]"
+      className="membership flex flex-col items-center justify-center w-full lg:pb-10 pb-44 md:gap-5 sm:gap-10 gap-14 lg:gap-10 lg:h-[140vh] sm:h-[240vh] h-[240vh]"
     >
       <div className="flex flex-col items-center justify-center text-center">
         <h1 className="sm:text-[40px] text-[33px] font-semibold">
