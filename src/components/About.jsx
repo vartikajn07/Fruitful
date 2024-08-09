@@ -1,7 +1,6 @@
 import React, { useEffect, useRef } from "react";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
-import { redirect } from "next/dist/server/api-utils";
 
 gsap.registerPlugin(ScrollTrigger);
 

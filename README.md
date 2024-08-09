@@ -1,9 +1,5 @@
 # fruitful
 
-=======
-
-# React + Vite
-
 Fruitful- finances figured out for you
 
 Fruitful is a website that helps it's users to handle finances by offering memberships.
