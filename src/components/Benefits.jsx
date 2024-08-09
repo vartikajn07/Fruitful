@@ -9,31 +9,6 @@ const Benefits = () => {
   const benefitsRef = useRef();
 
   useEffect(() => {
-    const elements = document.querySelectorAll("[data-scroll]");
-
-    const handleResize = () => {
-      if (window.innerWidth < 768) {
-        elements.forEach((el) => {
-          el.removeAttribute("data-scroll");
-          el.removeAttribute("data-scroll-speed");
-        });
-      } else {
-        elements.forEach((el) => {
-          el.setAttribute("data-scroll", "");
-          el.setAttribute("data-scroll-speed", "0.3");
-        });
-      }
-    };
-
-    handleResize(); // Run on initial load
-    window.addEventListener("resize", handleResize); // Run on resize
-
-    return () => {
-      window.removeEventListener("resize", handleResize);
-    };
-  }, []);
-
-  useEffect(() => {
     const el = benefitsRef.current;
 
     gsap.fromTo(
