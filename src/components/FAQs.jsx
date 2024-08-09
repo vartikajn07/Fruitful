@@ -59,7 +59,7 @@ const FAQs = () => {
   return (
     <div
       ref={ref}
-      className="faq w-full min-h-[150vh]  sm:min-h-[130vh] pt-30 sm:py-20"
+      className="faq w-full min-h-[120vh] sm:min-h-[130vh] pt-30 sm:py-20"
     >
       <div className="flex flex-col items-center justify-center sm:gap-14">
         <h1 className="md:text-[48px] md:tracking-wide font-semibold sm:text-[35px] text-[30px] leading-9 md:leading-normal md:w-fit text-center w-[18rem]">

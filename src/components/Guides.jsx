@@ -8,7 +8,7 @@ gsap.registerPlugin(CSSRulePlugin);
 
 const Guides = () => {
   return (
-    <div className="flex flex-col w-full gap-8  sm:min-h-[70vh] lg:flex-row sm:items-center sm:pb-10 sm:px-24 px-7 ">
+    <div className="flex flex-col w-full gap-8 sm:min-h-[70vh] lg:flex-row sm:items-center sm:pb-24 pb-16 sm:px-24 px-7 ">
       <div className="relative pointer-events-none lg:w-1/2 lg:h-1/2 sm:h-1/2 lg:pointer-events-auto">
         <img
           className="relative cursor-pointer rounded-2xl"

@@ -20,7 +20,7 @@ const Benefitscard = () => {
     <div>
       <Slider {...settings}>
         <div>
-          <div className="swiper h-[100vh] sm:h-[100vh] md:h-[80vh] w-full bg-white rounded-2xl flex md:flex-row flex-col sm:justify-around justify-center gap-5 md:px-32 sm:px-8 py-2 sm:py-8 px-2 md:py-16 ">
+          <div className="swiper h-[95vh] sm:h-[100vh] md:h-[80vh] w-full bg-white rounded-2xl flex md:flex-row flex-col sm:justify-around justify-center gap-5 md:px-32 sm:px-8 py-2 sm:py-8 px-2 md:py-16 ">
             <div className="flex flex-col items-start justify-center order-2 md:w-1/2 sm:h-1/2 md:h-full md:order-1 ">
               <h1 className="md:text-[20px] sm:text-[20px] text-[18px] ">
                 Guidance
@@ -56,7 +56,7 @@ const Benefitscard = () => {
           </div>
         </div>
         <div>
-          <div className="swiper h-[100vh] sm:h-[100vh] md:h-[80vh] w-full bg-white rounded-2xl flex md:flex-row flex-col sm:justify-around justify-center gap-5 md:px-32 sm:px-8 py-2 sm:py-8 px-2 md:py-16 ">
+          <div className="swiper h-[90vh] sm:h-[100vh] md:h-[80vh] w-full bg-white rounded-2xl flex md:flex-row flex-col sm:justify-around justify-center gap-5 md:px-32 sm:px-8 py-2 sm:py-8 px-2 md:py-16 ">
             <div className="flex flex-col items-start justify-center order-2 md:w-1/2 sm:h-1/2 md:h-full md:order-1 ">
               <h1 className="md:text-[20px] text-[20px]">Save</h1>
               <h1 className=" md:text-[30px] md:w-[24rem] text-[18px] font-semibold leading-10 sm:leading-8 sm:text-[25px] ">
@@ -86,7 +86,7 @@ const Benefitscard = () => {
           </div>
         </div>
         <div>
-          <div className="swiper h-[100vh] sm:h-[100vh] md:h-[80vh] w-full bg-white rounded-2xl flex md:flex-row flex-col sm:justify-around justify-center gap-5 md:px-32 sm:px-8 py-2 sm:py-8 px-2 md:py-16 ">
+          <div className="swiper h-[90vh] sm:h-[100vh] md:h-[80vh] w-full bg-white rounded-2xl flex md:flex-row flex-col sm:justify-around justify-center gap-5 md:px-32 sm:px-8 py-2 sm:py-8 px-2 md:py-16 ">
             <div className="flex flex-col items-start justify-center order-2 md:w-1/2 sm:h-1/2 md:h-full md:order-1 ">
               <h1 className="md:text-[20px] text-[20px]">Invest</h1>
               <h1 className="md:text-[30px] md:w-[24rem] text-[18px] font-semibold sm:leading-8 leading-10 sm:text-[25px]">
