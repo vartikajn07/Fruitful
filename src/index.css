@@ -2,6 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: "NeueMontreal";
+  src: url("./assets/NeueMontreal-Regular.ttf");
+}
+
 html.lenis {
   height: auto;
 }
@@ -18,8 +23,7 @@ html.lenis {
   pointer-events: none;
 }
 * {
-  font-family: "Neue Montreal";
-  font-size: 16px;
+  font-family: "NeueMontreal";
 }
 
 html {
