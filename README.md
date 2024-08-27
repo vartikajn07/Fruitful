@@ -5,8 +5,9 @@ It is an interface of a website helping in managing finances. This site was buil
 
 ## Tech Used
 
-- React
-- Tailwind
+- Reactjs
+- TailwindCSS
+- Vite (build tool)
 
 ### Other features
 - The site is interactive and mobile-responsive.
