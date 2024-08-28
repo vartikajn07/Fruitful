@@ -50,12 +50,15 @@ const Footer = () => {
           </div>
         </div>
 
-        <hr className="h-2 my-2 border-gray-200 md:my-3 dark:border-gray-700" />
+        <hr className="h-2 my-2 border-gray-200 md:my-4 " />
         <div className="sm:flex sm:items-center sm:justify-between">
           <h1 className=" text-start sm:text-[16px] text-[12px]">
             Fruitful &copy; 2024
           </h1>
-          <h1 className="sm:text-[16px] text-[12px]">Made by Vartika</h1>
+          <h1 className="sm:text-[16px] text-[12px]">
+            Designed and Developed by{" "}
+            <a href="https://github.com/vartikajn07"> Vartika Jain</a>.
+          </h1>
         </div>
       </div>
     </footer>
