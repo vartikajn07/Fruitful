@@ -56,8 +56,14 @@ const Footer = () => {
             Fruitful &copy; 2024
           </h1>
           <h1 className="sm:text-[16px] text-[12px]">
-            Designed and Developed by{" "}
-            <a href="https://github.com/vartikajn07"> Vartika Jain</a>.
+            Designed and developed by{" "}
+            <a
+              className="font-bold text-dark-green"
+              href="https://github.com/vartikajn07"
+            >
+              Vartika Jain
+            </a>
+            .
           </h1>
         </div>
       </div>
